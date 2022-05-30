@@ -1,0 +1,108 @@
+{
+  "main": {
+    "id": "4ce9c44776e87796",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a76b28ae4c08219",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "学习资料 sources.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c1798455eaadfb42",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b2182ce0b9980ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4610b81bc8654ce7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "67dcb2af6c9410f8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 225.0036334991455
+  },
+  "right": {
+    "id": "449f453e7da36197",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3e6ea711cd5c171",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a87e80d45ec3507",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "学习资料 sources.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1983f92ebb967c4e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "学习资料 sources.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 228.1678009033203
+  },
+  "active": "0a76b28ae4c08219",
+  "lastOpenFiles": [
+    "学习资料 sources.md",
+    "Attachment/dict.md",
+    "space-based detection.md",
+    "Attachment/names.md",
+    "README.md"
+  ]
+}
