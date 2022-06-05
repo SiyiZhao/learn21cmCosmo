@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学习资料 sources.md",
+            "file": "space-based detection.md",
             "mode": "source",
+            "backlinks": false,
             "source": false
           }
         }
@@ -64,12 +65,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3a87e80d45ec3507",
+            "id": "1983f92ebb967c4e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "space-based detection.md"
+              }
+            }
+          },
+          {
+            "id": "34359d5403ff8a41",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习资料 sources.md",
+                "file": "space-based detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,19 +90,8 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "1983f92ebb967c4e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "学习资料 sources.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,9 +99,10 @@
   },
   "active": "0a76b28ae4c08219",
   "lastOpenFiles": [
+    "space-based detection.md",
+    "When did Reionization happen.md",
     "学习资料 sources.md",
     "Attachment/dict.md",
-    "space-based detection.md",
     "Attachment/names.md",
     "README.md"
   ]

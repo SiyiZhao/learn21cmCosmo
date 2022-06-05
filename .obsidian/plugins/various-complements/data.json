@@ -46,6 +46,118 @@
           "lastUpdated": 1653904511622
         }
       }
+    },
+    "observations": {
+      "observations": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1653916546564
+        }
+      }
+    },
+    " ": {
+      " ": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1653967355010
+        }
+      }
+    },
+    "messages": {
+      "messages": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1654348944311
+        }
+      }
+    },
+    "EGDES3": {
+      "EGDES3": {
+        "currentFile": {
+          "count": 5,
+          "lastUpdated": 1654409904100
+        }
+      }
+    },
+    "SARAS3": {
+      "SARAS3": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1654349254810
+        }
+      }
+    },
+    "plane。": {
+      "plane。": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1654349536743
+        }
+      }
+    },
+    "sensitivity": {
+      "sensitivity": {
+        "customDictionary": {
+          "count": 2,
+          "lastUpdated": 1654400261323
+        }
+      }
+    },
+    "Tsky": {
+      "$T_{\\rm{sky}}$": {
+        "customDictionary": {
+          "count": 3,
+          "lastUpdated": 1654392153650
+        }
+      }
+    },
+    "Tsys": {
+      "$T_{\\rm{sys}}$": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1654392066034
+        }
+      }
+    },
+    "Furlanetto": {
+      "Furlanetto": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1654392174798
+        }
+      }
+    },
+    "fomula": {
+      "fomula": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1654392211823
+        }
+      }
+    },
+    "fr": {
+      "fr": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1654392213004
+        }
+      }
+    },
+    "bandwidth": {
+      "bandwidth": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1654399971360
+        }
+      }
+    },
+    "DSL": {
+      "DSL": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1654410095720
+        }
+      }
     }
   }
 }
