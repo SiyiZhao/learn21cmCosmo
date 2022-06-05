@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0a76b28ae4c08219",
+        "id": "3658c54f5ea55a56",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "space-based detection.md",
+            "file": "global_87MHz.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "space-based detection.md"
+                "file": "global_87MHz.md"
               }
             }
           },
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "space-based detection.md",
+                "file": "global_87MHz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,13 +97,17 @@
     "direction": "horizontal",
     "width": 228.1678009033203
   },
-  "active": "0a76b28ae4c08219",
+  "active": "3658c54f5ea55a56",
   "lastOpenFiles": [
+    "global_87MHz.md",
+    "figures/EDGES3photo.png",
+    "figures/EDGES3fit.png",
+    "literatures/@bowman2018edges3.md",
+    "README.md",
+    "figures/EDGES3data.png",
     "space-based detection.md",
     "When did Reionization happen.md",
     "学习资料 sources.md",
-    "Attachment/dict.md",
-    "Attachment/names.md",
-    "README.md"
+    "Attachment/dict.md"
   ]
 }

@@ -158,6 +158,54 @@
           "lastUpdated": 1654410095720
         }
       }
+    },
+    "pipeline": {
+      "pipeline": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1654419611397
+        }
+      }
+    },
+    "residuals": {
+      "residuals": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1654420091549
+        }
+      }
+    },
+    "predictions": {
+      "predictions": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1654420343850
+        }
+      }
+    },
+    "helpful": {
+      "helpful": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1654420360325
+        }
+      }
+    },
+    "materials": {
+      "materials": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1654420364216
+        }
+      }
+    },
+    "instrument": {
+      "instrument": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1654421132467
+        }
+      }
     }
   }
 }

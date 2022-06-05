@@ -1,5 +1,8 @@
 {
   "legacyEditor": false,
   "livePreview": true,
-  "attachmentFolderPath": "Attachment/figures"
+  "attachmentFolderPath": "figures",
+  "alwaysUpdateLinks": true,
+  "trashOption": "local",
+  "promptDelete": false
 }

@@ -5,7 +5,7 @@ banner_y: 0.556
 banner_lock: true
 ---
 
-21-cm global signal detection 已经取得一些结果，比如对再电离发生的红移区间的限制 ([[When did Reionization happen]]) ，再比如 EDGES3 对 CD 的超出标准模型的观测 () 。
+21-cm global signal detection 已经取得一些结果，比如对再电离发生的红移区间的限制 ([[When did Reionization happen]]) ，再比如 EDGES3 对 CD 的超出标准模型的观测 ([[global_87MHz]]) 。
 不过在地面上 探测21厘米信号收到地球大气电离层的干扰，越到低频越显著， 
 EGDES3 的 87MHz 的结果也有人怀疑是 大气电离层的问题 ()
 到空间去探测 21-cm signal 是近年来比较热门的想法。
@@ -27,7 +27,7 @@ EGDES3 的 87MHz 的结果也有人怀疑是 大气电离层的问题 ()
 （轨道设计、能源、重量（？）上我会参考 DSL , 而仪器 （antenna）主要参考 DAPPER。
 
 - 我们做 CubeSat主要要考虑一下问题：
-	- 天线构型和大小。
+	- 天线构型和大小：半波天线？cone-disk? Patch antenna?
 		- 总体来说是 length ~ lambda/2 , （2m for z=20, ） 比较好，色散可以忽略。
 		- DAPPER是直接用了4根天线，同时把偏振也测了（为什么？），看起来没有ground plane。
 		- DSL 分两个频段，因为它本身就是干涉阵，*在低频段为了有效积累积分时间，就多个卫星一起测了*，用的是 triple-disk 构型。高频段（30MHz+）只用一颗卫星，用的是 cone-disk 构型(d~40cm,h~30cm) 。（不同构型的区别？beam pattern 不同？如何选择？）用到了ground plane。 
