@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3658c54f5ea55a56",
+        "id": "f8be58bc89c8c6a4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "global_87MHz.md",
+            "file": "中性氢的跳跃.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "global_87MHz.md"
+                "file": "中性氢的跳跃.md"
               }
             }
           },
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "global_87MHz.md",
+                "file": "中性氢的跳跃.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +97,17 @@
     "direction": "horizontal",
     "width": 228.1678009033203
   },
-  "active": "3658c54f5ea55a56",
+  "active": "f8be58bc89c8c6a4",
   "lastOpenFiles": [
-    "global_87MHz.md",
-    "figures/EDGES3photo.png",
-    "figures/EDGES3fit.png",
-    "literatures/@bowman2018edges3.md",
+    "中性氢的跳跃.md",
     "README.md",
-    "figures/EDGES3data.png",
+    "DSL.md",
     "space-based detection.md",
-    "When did Reionization happen.md",
-    "学习资料 sources.md",
-    "Attachment/dict.md"
+    "21-cm signal.md",
+    "DAPPER.md",
+    "global_78MHz.md",
+    "SARAS.md",
+    "figures/DSL_mother_satellite.png",
+    "figures/SARAS3_photo.png"
   ]
 }

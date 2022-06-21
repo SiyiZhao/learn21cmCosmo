@@ -5,7 +5,7 @@ banner_y: 0.556
 banner_lock: true
 ---
 
-21-cm global signal detection 已经取得一些结果，比如对再电离发生的红移区间的限制 ([[When did Reionization happen]]) ，再比如 EDGES3 对 CD 的超出标准模型的观测 ([[global_87MHz]]) 。
+21-cm global signal detection 已经取得一些结果，比如对再电离发生的红移区间的限制 ([[When did Reionization happen]]) ，再比如 EDGES3 对 CD 的超出标准模型的观测 ([[global_78MHz]]) 。
 不过在地面上 探测21厘米信号收到地球大气电离层的干扰，越到低频越显著， 
 EGDES3 的 87MHz 的结果也有人怀疑是 大气电离层的问题 ()
 到空间去探测 21-cm signal 是近年来比较热门的想法。
@@ -21,28 +21,57 @@ EGDES3 的 87MHz 的结果也有人怀疑是 大气电离层的问题 ()
 	- （也有人认为 ground plane也会提供假信号 [A Ground Plane Artifact that Induces an Absorption Profile in Averaged Spectra from Global 21 cm Measurements, with Possible Application to EDGES](https://www.colorado.edu/project/dark-ages-polarimeter-pathfinder/2019/04/03/ground-plane-artifact-induces-absorption-profile-averaged-spectra-global-21-cm)
 - DAPPER 就打算先在 cosmic dawn 验证 EGDES3 的结果，再进一步通过对 dark ages的测量，来区分不同的 暗物质冷却模型，为下一步的研究提供方向，限制人们对暗物质的理解。
 
+- 除了电离层外，人类活动的RFI及地表反射都会影响结果，前往太空可以很好地减轻这些误差。
+
 我调查了目前最新的两个项目， [[DAPPER]] 和 [[DSL]] ，两者区别很大。
 [[DAPPER]] 感觉就是瞄准了 21cm global signal，特别是 EDGES3的观测结果引来的争议。
 而 [[DSL]] 则主要是想开创 1-30MHz 窗口，想做的事情非常多， global  signal  只是其中一个小目标。
 （轨道设计、能源、重量（？）上我会参考 DSL , 而仪器 （antenna）主要参考 DAPPER。
 
-- 我们做 CubeSat主要要考虑一下问题：
-	- 天线构型和大小：半波天线？cone-disk? Patch antenna?
+- 我们做 CubeSat主要要考虑以下问题：
+	- ==天线==构型和大小：半波天线(length ~ lambda/2 , 2m for z=20, )？disk-cone(d~40cm,h~30cm)? tripole antennas? Patch antenna?
+		- Patch antenna “inherently smooth and consistent beam power pattern over the 40-110 MHz high band.” (Burns et al., 2021, p. 7)
 		- 总体来说是 length ~ lambda/2 , （2m for z=20, ） 比较好，色散可以忽略。
 		- DAPPER是直接用了4根天线，同时把偏振也测了（为什么？），看起来没有ground plane。
 		- DSL 分两个频段，因为它本身就是干涉阵，*在低频段为了有效积累积分时间，就多个卫星一起测了*，用的是 triple-disk 构型。高频段（30MHz+）只用一颗卫星，用的是 cone-disk 构型(d~40cm,h~30cm) 。（不同构型的区别？beam pattern 不同？如何选择？）用到了ground plane。 
 		- ground plane 会改变 beam pattern，可以指向特定天区。高银纬的前景小。（这个好处是否足够有吸引力？——分析见下
 			- 如果要做 ground plane，可以将太阳能翻版和 ground plane结合？
-	- 轨道和时间分布
+	- ==探测器==/receiver (and electronics)
+		- Instrument stability and signal purity -> Low Noise Power Supply (LNPS), thermal management of the analog/digital converter (ADC), and adherence to electromagnetic compatibility (EMC) plans throughout.
+	- ==轨道==和时间分布
 		- 轨道可以低一点，DAPPER是50-120km，DSL是300km，
 		- 观测需要月球挡住地球（最好也能挡住太阳），有效观测时间在30%左右。想必是越低越好（
-	- 观测时间
+		- Attitude and Orbit Control Subsystem (AOCS) 
+	- ==观测时间==
 		- 拿前景dominate system thermal noise，再假设 bandwidth，可以估算积分时间。（天到年量级比较正常。（例子见下
-	- **频率覆盖**：
-		- 需要综合考虑科学价值、卫星尺寸、积分时间需求。
-	- 重量、功耗
-	- 数传：
-		- 如果参考DSL ，
+	- ==频率覆盖==：
+		- 需要综合考虑科学价值、卫星尺寸、积分时间需求。——暂时只考虑 Cosmic dawn
+
+	- ==温度控制==：
+		- “1 ̊C thermal stability requirement” (Boonstra et al., 2016, p. 14)
+	- ==姿态控制==：
+		- ground plane最好冲着月球，屏蔽月表反射。
+		- 或者对着低前景天区。姿态控制不需要太细致。
+		- propulsion system ？ ->  0.7kg (DSL daughter)
+	- ==数传==：
+		- “a radiation hardened Onboard Computer (OBC), a payload interface unit providing digital signal processing, and a mass memory unit ...” (Boonstra et al., 2016, p. 13)  128Gbits for daughter.
+	- ==重量==(除特殊标注，参考 DSL daughter )、功耗 
+|                 | mass \[kg\] | power \[W\] |
+| --------------- | ----------- | ----------- |
+| Payload         | 2.2         | 4           |
+| CDHS            | 0.7         | 2           |
+| AOCS            | 1.9         | 4           |
+| Propulsion      | 0.7         | 2           |
+| Power           | 2           | 0.1         |
+| Thermal Control | 1.1         | 1           |
+| Harness         | 0.3         | -           |
+| Communication*  | <6.5         | <120         |
+| Total           |  <15.4           |    <133.1         |
+ps.
+The Command and Data Handling Subsystem (CDHS) 
+Attitude and Orbit Control Subsystem (AOCS) 
+\* X-band communication, ref to DSL mother satellite as upper limit.
+
 - 可以拓展到 array 上，但干涉阵更复杂，DSL已有讨论。
 
 
@@ -67,6 +96,14 @@ $\Delta T^{N}= \frac{T_{\mathrm{sys}}}{\sqrt{\Delta \nu t_{\mathrm{int}}}}$ ,
 要求 sensitivity  $\Delta T = 10 \rm{~mK}$, 实际有望再降低一个数量级。
 > “For the Dark Ages science case, the goal is to reach 5 mK error on the brightness temperature estimate at 20 MHz,” (Boonstra et al., 2016, p. 6)
 > “within eight months of mission duration: this would allow a detection of the dark age signal at SNR=10.” (Boonstra et al., 2016, p. 6)
+
+
+
+|  z  | $\Delta T$ |  $\nu$   | $t_{\mathrm{int}}$ |
+|:---:|:----------:| --- |:------------------:|
+| 10  |    1mK     |  129.1MHz   |         97.3hr           |
+| 20  |    10mK    |  67.62 MHz   |       24.7hr       |
+| 70  |    10mK     |  20.3MHz   |         27.7yr           |
 
 
 
