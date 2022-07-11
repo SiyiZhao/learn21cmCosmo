@@ -39,326 +39,6 @@
   "insertCommaAfterFrontMatterCompletion": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "fNL": {
-      "$f_{\\rm{NL}}$": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1653904511622
-        }
-      }
-    },
-    "observations": {
-      "observations": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1653916546564
-        }
-      }
-    },
-    " ": {
-      " ": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1653967355010
-        }
-      }
-    },
-    "messages": {
-      "messages": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654348944311
-        }
-      }
-    },
-    "EGDES3": {
-      "EGDES3": {
-        "currentFile": {
-          "count": 5,
-          "lastUpdated": 1654409904100
-        }
-      }
-    },
-    "SARAS3": {
-      "SARAS3": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654349254810
-        }
-      }
-    },
-    "plane。": {
-      "plane。": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654349536743
-        }
-      }
-    },
-    "sensitivity": {
-      "sensitivity": {
-        "customDictionary": {
-          "count": 2,
-          "lastUpdated": 1654400261323
-        }
-      }
-    },
-    "Tsky": {
-      "$T_{\\rm{sky}}$": {
-        "customDictionary": {
-          "count": 3,
-          "lastUpdated": 1654392153650
-        }
-      }
-    },
-    "Tsys": {
-      "$T_{\\rm{sys}}$": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654392066034
-        }
-      }
-    },
-    "Furlanetto": {
-      "Furlanetto": {
-        "customDictionary": {
-          "count": 2,
-          "lastUpdated": 1654438305336
-        }
-      }
-    },
-    "fomula": {
-      "fomula": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654392211823
-        }
-      }
-    },
-    "fr": {
-      "fr": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654392213004
-        }
-      }
-    },
-    "bandwidth": {
-      "bandwidth": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654399971360
-        }
-      }
-    },
-    "DSL": {
-      "DSL": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654410095720
-        }
-      }
-    },
-    "pipeline": {
-      "pipeline": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654419611397
-        }
-      }
-    },
-    "residuals": {
-      "residuals": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654420091549
-        }
-      }
-    },
-    "predictions": {
-      "predictions": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654420343850
-        }
-      }
-    },
-    "helpful": {
-      "helpful": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654420360325
-        }
-      }
-    },
-    "materials": {
-      "materials": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654420364216
-        }
-      }
-    },
-    "instrument": {
-      "instrument": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654421132467
-        }
-      }
-    },
-    "daughter": {
-      "daughter": {
-        "customDictionary": {
-          "count": 6,
-          "lastUpdated": 1654478877993
-        }
-      }
-    },
-    "communication": {
-      "communication": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654428953613
-        }
-      }
-    },
-    "structure": {
-      "structure": {
-        "customDictionary": {
-          "count": 2,
-          "lastUpdated": 1654479017180
-        }
-      }
-    },
-    "receiver": {
-      "receiver": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654432514213
-        }
-      }
-    },
-    "antenna": {
-      "antenna": {
-        "customDictionary": {
-          "count": 4,
-          "lastUpdated": 1654478865417
-        }
-      }
-    },
-    "detect": {
-      "detect": {
-        "customDictionary": {
-          "count": 2,
-          "lastUpdated": 1654438201513
-        }
-      }
-    },
-    "Cosmic": {
-      "Cosmic": {
-        "currentVault": {
-          "count": 1,
-          "lastUpdated": 1654438197229
-        }
-      }
-    },
-    "absorption": {
-      "absorption": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654438347223
-        }
-      }
-    },
-    "Pritchard": {
-      "Pritchard": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654438453760
-        }
-      }
-    },
-    "21st_century": {
-      "21st_century": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1654438478264
-        }
-      }
-    },
-    "news": {
-      "news": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654438513173
-        }
-      }
-    },
-    "satellite": {
-      "satellite": {
-        "customDictionary": {
-          "count": 4,
-          "lastUpdated": 1654479015046
-        }
-      }
-    },
-    "communicate": {
-      "communicate": {
-        "customDictionary": {
-          "count": 2,
-          "lastUpdated": 1654478655029
-        }
-      }
-    },
-    "separation": {
-      "separation": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654478894286
-        }
-      }
-    },
-    "propulsion": {
-      "propulsion": {
-        "currentVault": {
-          "count": 1,
-          "lastUpdated": 1654478917145
-        }
-      }
-    },
-    "bottom": {
-      "bottom": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654478963731
-        }
-      }
-    },
-    "Science": {
-      "Science": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654484106739
-        }
-      }
-    },
-    "pdf": {
-      "pdf": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1654484182588
-        }
-      }
-    },
-    "ionosphere": {
-      "ionosphere": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654498514123
-        }
-      }
-    },
     "Theory": {
       "Theory": {
         "customDictionary": {
@@ -388,6 +68,62 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1655813860651
+        }
+      }
+    },
+    "Furlanetto": {
+      "Furlanetto": {
+        "customDictionary": {
+          "count": 3,
+          "lastUpdated": 1657505917589
+        }
+      }
+    },
+    "comprehensive": {
+      "comprehensive": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1657505376758
+        }
+      }
+    },
+    "21cm": {
+      "21cm": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1657505592331
+        }
+      }
+    },
+    "literature": {
+      "literature": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1657505622902
+        }
+      }
+    },
+    "brings": {
+      "brings": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1657505672429
+        }
+      }
+    },
+    "difficult": {
+      "difficult": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1657505679990
+        }
+      }
+    },
+    "Pritchard": {
+      "Pritchard": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1657505818212
         }
       }
     }

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "中性氢的跳跃.md",
+            "file": "学习资料 sources.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "comprehensive",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中性氢的跳跃.md"
+                "file": "学习资料 sources.md"
               }
             }
           },
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中性氢的跳跃.md",
+                "file": "学习资料 sources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
   },
   "active": "f8be58bc89c8c6a4",
   "lastOpenFiles": [
-    "中性氢的跳跃.md",
+    "学习资料 sources.md",
+    "literatures/21st_century.md",
+    "杂谈.md",
     "README.md",
+    "中性氢的跳跃.md",
     "DSL.md",
     "space-based detection.md",
     "21-cm signal.md",
     "DAPPER.md",
-    "global_78MHz.md",
-    "SARAS.md",
-    "figures/DSL_mother_satellite.png",
-    "figures/SARAS3_photo.png"
+    "global_78MHz.md"
   ]
 }
