@@ -5,6 +5,8 @@
 
 这里也会罗列一些更“进阶”的资料以方便检索，材料的选择有一定的个人bias.
 
+[[21-cm in general]]
+
 ## Theory 
 EoR models and theory predictions :
 

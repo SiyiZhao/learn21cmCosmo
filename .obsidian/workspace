@@ -9,7 +9,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学习资料 sources.md",
+            "file": "README.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "5425a3e1074a1f49",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "21-cm in general.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -70,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习资料 sources.md"
+                "file": "21-cm in general.md"
               }
             }
           },
@@ -80,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习资料 sources.md",
+                "file": "21-cm in general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +110,17 @@
     "direction": "horizontal",
     "width": 228.1678009033203
   },
-  "active": "f8be58bc89c8c6a4",
+  "active": "5425a3e1074a1f49",
   "lastOpenFiles": [
+    "21-cm in general.md",
+    "Attachment/dict.md",
+    "README.md",
     "学习资料 sources.md",
     "literatures/21st_century.md",
     "杂谈.md",
-    "README.md",
     "中性氢的跳跃.md",
     "DSL.md",
     "space-based detection.md",
-    "21-cm signal.md",
-    "DAPPER.md",
-    "global_78MHz.md"
+    "21-cm signal.md"
   ]
 }
